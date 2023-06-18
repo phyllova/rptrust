@@ -1,0 +1,55 @@
+<!DOCTYPE html><html lang="en"><head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="theme-color" content="#071278">
+    <meta name="description" content="Available in over 40 countries, Luno is a secure cryptocurrency platform that lets you buy, sell, store and trade BTC, ETH, XRP, BCH, LTC and more">
+
+    <title>Buy Bitcoin, Ethereum, USDC, XRP and Altcoins Securely | Luno</title>
+    <base href="/">
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RPBN9JG6XG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+    </script>
+
+    <!-- Open Graph tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Buy Bitcoin, Ethereum, USDC, XRP and Altcoins Securely">
+    <meta property="og:site_name" content="Luno">
+    <meta property="og:image" content="https://d32exi8v9av3ux.cloudfront.net/auth-app/2023/05/30/52be69/auth-app/assets/img/default_og_image.png">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Luno Website">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="https://d32exi8v9av3ux.cloudfront.net/static/v3/icons/favicons/favicon-144x144.png">
+    <meta name="msapplication-TileColor" content="#12326B">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="https://d32exi8v9av3ux.cloudfront.net/static/v3/icons/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://d32exi8v9av3ux.cloudfront.net/static/v3/icons/favicons/favicon-16x16.png">
+    <link rel="icon" sizes="152x152" href="https://d32exi8v9av3ux.cloudfront.net/static/v3/icons/favicons/favicon-152x152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://d32exi8v9av3ux.cloudfront.net/static/v3/icons/favicons/favicon-152x152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://d32exi8v9av3ux.cloudfront.net/static/v3/icons/favicons/favicon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://d32exi8v9av3ux.cloudfront.net/static/v3/icons/favicons/favicon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://d32exi8v9av3ux.cloudfront.net/static/v3/icons/favicons/favicon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://d32exi8v9av3ux.cloudfront.net/static/v3/icons/favicons/favicon-72x72.png">
+
+    <!-- Material icons -->
+    <style type="text/css">@font-face{font-family:'Material Icons';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/materialicons/v140/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');}.material-icons{font-family:'Material Icons';font-weight:normal;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased;}</style>
+  <style>@font-face{font-family:Greycliff;font-style:normal;font-weight:400;src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/GreycliffCF-Regular.eot);src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/GreycliffCF-Regular.woff),url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/GreycliffCF-Regular.woff2);font-display:swap}@font-face{font-family:Greycliff;font-style:italic;font-weight:400;src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/GreycliffCF-RegularOblique.eot);src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/GreycliffCF-RegularOblique.woff),url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/GreycliffCF-RegularOblique.woff2);font-display:swap}@font-face{font-family:Greycliff;font-style:normal;font-weight:500;src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/GreycliffCF-Medium.eot);src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/GreycliffCF-Medium.woff),url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/GreycliffCF-Medium.woff2);font-display:swap}@font-face{font-family:Greycliff;font-style:italic;font-weight:500;src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/GreycliffCF-MediumOblique.eot);src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/GreycliffCF-MediumOblique.woff),url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/GreycliffCF-MediumOblique.woff2);font-display:swap}@font-face{font-family:Greycliff;font-style:normal;font-weight:800;src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/GreycliffCF-ExtraBold.eot);src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/GreycliffCF-ExtraBold.woff),url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/GreycliffCF-ExtraBold.woff2);font-display:swap}@font-face{font-family:Greycliff;font-style:italic;font-weight:800;src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/GreycliffCF-ExtraBoldOblique.eot);src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/GreycliffCF-ExtraBoldOblique.woff),url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/GreycliffCF-ExtraBoldOblique.woff2);font-display:swap}@font-face{font-family:Fracktif;font-style:normal;font-weight:400;src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/Fracktif-Regular.eot);src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/Fracktif-Regular.woff),url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/Fracktif-Regular.woff2);font-display:swap}@font-face{font-family:Fracktif;font-style:italic;font-weight:400;src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/Fracktif-RegularItalic.eot);src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/Fracktif-RegularItalic.woff),url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/Fracktif-RegularItalic.woff2);font-display:swap}@font-face{font-family:Fracktif;font-style:normal;font-weight:500;src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/Fracktif-Regular.eot);src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/Fracktif-Regular.woff),url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/Fracktif-Regular.woff2);font-display:swap}@font-face{font-family:Fracktif;font-style:italic;font-weight:500;src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/Fracktif-MediumItalic.eot);src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/Fracktif-MediumItalic.woff),url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/Fracktif-MediumItalic.woff2);font-display:swap}@font-face{font-family:Fracktif;font-style:normal;font-weight:800;src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/Fracktif-SemiBold.eot);src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/Fracktif-SemiBold.woff),url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/Fracktif-SemiBold.woff2);font-display:swap}@font-face{font-family:Fracktif;font-style:italic;font-weight:800;src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/Fracktif-SemiBoldItalic.eot);src:url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/Fracktif-SemiBoldItalic.woff),url(https://d32exi8v9av3ux.cloudfront.net/static/fonts/Fracktif-SemiBoldItalic.woff2);font-display:swap}:root{--color-primary:#071278;--color-primary-lighter:#001e88;--color-secondary:#2639f2;--color-secondary-lighter:#3044fe;--color-secondary-darker:#162af1;--color-secondary-background:#d8edff;--color-secondary-background-lighter:#e9f5ff;--color-secondary-background-darker:#c7e5ff;--color-secondary-300:#c7e5ff;--color-secondary-600:#2639f2;--color-tertiary:#5c65f6;--color-tertiary-lighter:#6c74f7;--color-accent:#ff5c5c;--color-accent-lighter:#ffadab;--color-accent-darker:#ff4b4b;--color-accent-100:#ffcecd;--color-accent-250:#ff7c77;--color-neutral-0:#ffffff;--color-neutral-100:#f2f2f2;--color-neutral-300:#777db5;--color-success:#4caf50;--color-success-background:#dbefdc;--color-success-background-light:#b7dfb9;--color-warning:#ff6f00;--color-error:#b00020;--color-exchange:#051025;--color-coin-btc:#f7931a;--color-coin-eth:#62688f;--color-coin-usdc:#2775ca;--color-coin-ltc:#8c9091;--color-coin-xrp:#434c54;--color-coin-bch:#07916a;--color-coin-fiat:#071278;--color-alpha-hover:.2}html{-webkit-font-smoothing:antialiased}body{color:#071278;color:var(--color-primary);font-family:Greycliff,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:16px;margin:0}body.luno_v3{font-family:Fracktif,Helvetica Neue,Helvetica,Arial,sans-serif}body.luno_v3 *{font-feature-settings:"tnum";font-variant-numeric:tabular-nums}.mat-typography{font:400 14px/20px Roboto,Helvetica Neue,sans-serif;letter-spacing:normal}.mat-typography{font:500 16px/1.5 Fracktif,Helvetica Neue,Helvetica,Arial,sans-serif;letter-spacing:normal}.mat-typography{font:500 16px/1.5 Fracktif,Helvetica Neue,Helvetica,Arial,sans-serif;letter-spacing:normal}@media screen and (max-width: 768px){.mat-typography{font:500 16px/1.5 Fracktif,Helvetica Neue,Helvetica,Arial,sans-serif;letter-spacing:normal}}*{box-sizing:border-box}html{background-color:var(--color-primary)}</style><link rel="stylesheet" href="https://d32exi8v9av3ux.cloudfront.net/auth-app/2023/05/30/52be69/auth-app/styles.0b3b29d16d2e6d84.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://d32exi8v9av3ux.cloudfront.net/auth-app/2023/05/30/52be69/auth-app/styles.0b3b29d16d2e6d84.css"></noscript></head>
+  <body class="mat-typography luno_v3">
+    <luno-auth-app></luno-auth-app>
+  <script src="https://d32exi8v9av3ux.cloudfront.net/auth-app/2023/05/30/52be69/auth-app/runtime.6d25aa2ae09be689.js" type="module"></script><script src="https://d32exi8v9av3ux.cloudfront.net/auth-app/2023/05/30/52be69/auth-app/polyfills.d2e9c44607c117d9.js" type="module"></script><script src="https://d32exi8v9av3ux.cloudfront.net/auth-app/2023/05/30/52be69/auth-app/main.0b5504a06cd4b7a2.js" type="module"></script>
+
+</body></html>

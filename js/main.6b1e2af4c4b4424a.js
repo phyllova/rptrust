@@ -15189,7 +15189,7 @@
                     matIcon: { name: "groups", theme: "primary" },
                     action: {
                         name: n.i18nService.translateText(b_careers_text),
-                        url: "/en/careers",
+                        url: "/careers",
                     },
                     activeForRoutes: ["/careers"],
                     allowedCountries: r,
@@ -16533,7 +16533,7 @@
                                     name: this.i18n.translateText(
                                         b_careers_text
                                     ),
-                                    url: "/en/careers",
+                                    url: "/careers",
                                 },
                                 activeForRoutes: ["/careers"],
                             },
@@ -17632,7 +17632,7 @@
                 on_secondaryButtons_text = "Manage settings",
                 Se_title_text = "Cookie preferences",
                 Se_bodyHtml_text =
-                    'When you visit our website, we may store cookies on your browser. We use cookies to create a personalised web experience and understand user behaviour on our website. We respect your right to privacy so you can choose not to allow some types of cookies. For more information see our <a href="{locationOrigin}/en/legal/cookie-policy" target="_blank">Cookie Policy</a>.',
+                    'When you visit our website, we may store cookies on your browser. We use cookies to create a personalised web experience and understand user behaviour on our website. We respect your right to privacy so you can choose not to allow some types of cookies. For more information see our <a href="{locationOrigin}/legal/cookie-policy" target="_blank">Cookie Policy</a>.',
                 Se_preferencesTitle_text = "Manage cookies:",
                 Se_saveButton_text = "Save",
                 Se_strictlyNecessaryText_text = "Strictly necessary cookies",
@@ -18374,7 +18374,7 @@
                                     e.qZA()()),
                                     2 & t &&
                                         (e.xp6(3),
-                                        e.Q6J("url", "/en/countrylist"),
+                                        e.Q6J("url", "/countrylist"),
                                         e.xp6(1),
                                         e.Q6J(
                                             "innerHtml",
@@ -20866,15 +20866,15 @@
                             [
                                 { url: "/", language: pt.h },
                                 { url: "/en", language: "en" },
-                                { url: "/en/au", language: "en-au" },
-                                { url: "/en/gb", language: "en-gb" },
-                                { url: "/en/my", language: "en-my" },
-                                { url: "/en/ng", language: "en-ng" },
-                                { url: "/en/sg", language: "en-sg" },
-                                { url: "/en/ug", language: "en-ug" },
+                                { url: "/au", language: "en-au" },
+                                { url: "/gb", language: "en-gb" },
+                                { url: "/my", language: "en-my" },
+                                { url: "/ng", language: "en-ng" },
+                                { url: "/sg", language: "en-sg" },
+                                { url: "/ug", language: "en-ug" },
                                 { url: "/en-US", language: "en-us" },
                                 { url: "/ms-MY", language: "ms-my" },
-                                { url: "/en/za", language: "en-za" },
+                                { url: "/za", language: "en-za" },
                                 { url: "/fr", language: "fr" },
                                 { url: "/fr/fr", language: "fr-fr" },
                                 { url: "/id", language: "id" },

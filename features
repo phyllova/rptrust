@@ -3340,9 +3340,9 @@
                 max-width: 344px
             }
         </style>
-        <link rel="canonical" href="https://www.getrippletrust.com/en/features">
-        <link rel="alternate" hreflang="x-default" href="https://www.getrippletrust.com/en/features">
-        <link rel="alternate" hreflang="en" href="https://www.getrippletrust.com/en/features">
+        <link rel="canonical" href="https://www.getrippletrust.com/features">
+        <link rel="alternate" hreflang="x-default" href="https://www.getrippletrust.com/features">
+        <link rel="alternate" hreflang="en" href="https://www.getrippletrust.com/features">
         <link rel="alternate" hreflang="fr" href="https://www.getrippletrust.com/fr/features">
         <link rel="alternate" hreflang="id" href="https://www.getrippletrust.com/id/features">
         <link rel="alternate" hreflang="it" href="https://www.getrippletrust.com/it/features">
@@ -3351,7 +3351,7 @@
         <meta name="robots" content="index, follow">
         <meta name="description" content="The getrippletrust App puts the world's most trusted crypto exchange &amp; wallet in your pocket. A safe &amp; easy way to buy, store &amp; learn about crypto. Available on iOS, Android, Web.">
         <meta property="og:description" content="The getrippletrust App puts the world's most trusted crypto exchange &amp; wallet in your pocket. A safe &amp; easy way to buy, store &amp; learn about crypto. Available on iOS, Android, Web.">
-        <meta property="og:url" content="/en/features">
+        <meta property="og:url" content="/features">
         <meta property="og:locale" content="en-GB">
         <style ng-transition="serverApp">
             .mat-form-field {
@@ -4269,7 +4269,7 @@
                                                 </li>
                                                 <li _ngcontent-sc164="" matripple="" class="mat-ripple ng-star-inserted">
                                                     <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/help/en/" rel="null" target="">
+                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/help/" rel="null" target="">
                                                             <span _ngcontent-sc164="" class="icon-wrapper ng-star-inserted" style="display: inline-block;">
                                                                 <mat-icon _ngcontent-sc164="" role="img" class="mat-icon notranslate mat-primary material-icons mat-ligature-font" aria-hidden="true" data-mat-icon-type="font">help </mat-icon>
                                                             </span>
@@ -4295,7 +4295,7 @@
                                             <ul _ngcontent-sc164="">
                                                 <li _ngcontent-sc164="" matripple="" class="mat-ripple ng-star-inserted">
                                                     <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/en/proof-of-reserves">
+                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/proof-of-reserves">
                                                             <picture _ngcontent-sc164="" getrippletrust-picture="" loading="lazy" class="side-nav-img ng-star-inserted" _nghost-sc125="" style="display: inline-block;">
                                                                 <div _ngcontent-sc125="" style="height:24px;width:24px;margin:auto;" class="ng-star-inserted">
                                                                     <source _ngcontent-sc125="" type="image/avif" srcset="https://d32exi8v9av3ux.cloudfront.net/static/v3/icons/sidenav/highlight/reserves.avif" class="ng-star-inserted">
@@ -4344,7 +4344,7 @@
                                             <ul _ngcontent-sc164="">
                                                 <li _ngcontent-sc164="" matripple="" class="mat-ripple ng-star-inserted">
                                                     <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/en/features">
+                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/features">
                                                             <span _ngcontent-sc164="" class="icon-wrapper ng-star-inserted" style="display: inline-block;">
                                                                 <mat-icon _ngcontent-sc164="" role="img" class="mat-icon notranslate mat-primary material-icons mat-ligature-font" aria-hidden="true" data-mat-icon-type="font">phone_android </mat-icon>
                                                             </span>
@@ -4364,7 +4364,7 @@
                                                 </li>
                                                 <li _ngcontent-sc164="" matripple="" class="mat-ripple ng-star-inserted">
                                                     <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/en/countries">
+                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/countries">
                                                             <span _ngcontent-sc164="" class="icon-wrapper ng-star-inserted" style="display: inline-block;">
                                                                 <mat-icon _ngcontent-sc164="" role="img" class="mat-icon notranslate mat-primary material-icons mat-ligature-font" aria-hidden="true" data-mat-icon-type="font">sell </mat-icon>
                                                             </span>
@@ -4374,7 +4374,7 @@
                                                 </li>
                                                 <li _ngcontent-sc164="" matripple="" class="mat-ripple ng-star-inserted">
                                                     <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/en/exchange">
+                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/exchange">
                                                             <span _ngcontent-sc164="" class="icon-wrapper ng-star-inserted" style="display: inline-block;">
                                                                 <mat-icon _ngcontent-sc164="" role="img" class="mat-icon notranslate mat-primary material-icons mat-ligature-font" aria-hidden="true" data-mat-icon-type="font">bar_chart </mat-icon>
                                                             </span>
@@ -4384,7 +4384,7 @@
                                                 </li>
                                                 <li _ngcontent-sc164="" matripple="" class="mat-ripple ng-star-inserted">
                                                     <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/en/business">
+                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/business">
                                                             <span _ngcontent-sc164="" class="icon-wrapper ng-star-inserted" style="display: inline-block;">
                                                                 <mat-icon _ngcontent-sc164="" role="img" class="mat-icon notranslate mat-primary material-icons mat-ligature-font" aria-hidden="true" data-mat-icon-type="font">work </mat-icon>
                                                             </span>
@@ -4394,7 +4394,7 @@
                                                 </li>
                                                 <li _ngcontent-sc164="" matripple="" class="mat-ripple ng-star-inserted">
                                                     <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/en/developers">
+                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/developers">
                                                             <span _ngcontent-sc164="" class="icon-wrapper ng-star-inserted" style="display: inline-block;">
                                                                 <mat-icon _ngcontent-sc164="" role="img" class="mat-icon notranslate mat-primary material-icons mat-ligature-font" aria-hidden="true" data-mat-icon-type="font">cloud </mat-icon>
                                                             </span>
@@ -4409,7 +4409,7 @@
                                             <ul _ngcontent-sc164="">
                                                 <li _ngcontent-sc164="" matripple="" class="mat-ripple ng-star-inserted">
                                                     <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/en/about">
+                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/about">
                                                             <span _ngcontent-sc164="" class="icon-wrapper ng-star-inserted" style="display: inline-block;">
                                                                 <mat-icon _ngcontent-sc164="" role="img" class="mat-icon notranslate mat-primary material-icons mat-ligature-font" aria-hidden="true" data-mat-icon-type="font">maps_home_work </mat-icon>
                                                             </span>
@@ -4419,7 +4419,7 @@
                                                 </li>
                                                 <li _ngcontent-sc164="" matripple="" class="mat-ripple ng-star-inserted">
                                                     <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/en/careers" rel="null" target="">
+                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/careers" rel="null" target="">
                                                             <span _ngcontent-sc164="" class="icon-wrapper ng-star-inserted" style="display: inline-block;">
                                                                 <mat-icon _ngcontent-sc164="" role="img" class="mat-icon notranslate mat-primary material-icons mat-ligature-font" aria-hidden="true" data-mat-icon-type="font">groups </mat-icon>
                                                             </span>
@@ -4429,7 +4429,7 @@
                                                 </li>
                                                 <li _ngcontent-sc164="" matripple="" class="mat-ripple ng-star-inserted">
                                                     <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/en/press">
+                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/press">
                                                             <span _ngcontent-sc164="" class="icon-wrapper ng-star-inserted" style="display: inline-block;">
                                                                 <mat-icon _ngcontent-sc164="" role="img" class="mat-icon notranslate mat-primary material-icons mat-ligature-font" aria-hidden="true" data-mat-icon-type="font">newspaper </mat-icon>
                                                             </span>
@@ -4487,11 +4487,11 @@
 
                             <menu _ngcontent-sc163="" class="links ng-star-inserted">
                                 <getrippletrust-hyperlink _ngcontent-sc163="" _nghost-sc108="" style="display: inline-block;" class="hide-on-mobile ng-star-inserted">
-                                    <a _ngcontent-sc108="" class="ng-star-inserted" href="/en/features">Features</a>
+                                    <a _ngcontent-sc108="" class="ng-star-inserted" href="/features">Features</a>
                                 </getrippletrust-hyperlink>
                                 <getrippletrust-hyperlink _ngcontent-sc163="" _nghost-sc108="" style="display: inline-block;" class="hide-on-mobile hide-on-tablet ng-star-inserted"><a _ngcontent-sc108="" class="ng-star-inserted" href="/wallet" rel="null" target="">Wallet</a>
                                 </getrippletrust-hyperlink>
-                                <getrippletrust-hyperlink _ngcontent-sc163="" _nghost-sc108="" style="display: inline-block;" class="hide-on-mobile hide-on-tablet ng-star-inserted"><a _ngcontent-sc108="" class="ng-star-inserted" href="/en/exchange">Exchange</a>
+                                <getrippletrust-hyperlink _ngcontent-sc163="" _nghost-sc108="" style="display: inline-block;" class="hide-on-mobile hide-on-tablet ng-star-inserted"><a _ngcontent-sc108="" class="ng-star-inserted" href="/exchange">Exchange</a>
                                 </getrippletrust-hyperlink>
                                 <getrippletrust-hyperlink _ngcontent-sc163="" _nghost-sc108="" style="display: inline-block;" class="hide-on-mobile ng-star-inserted"><a _ngcontent-sc108="" class="ng-star-inserted" href="users/form/index.php" rel="null" target="">Sign in</a>
                                 </getrippletrust-hyperlink>
@@ -4802,7 +4802,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16786"
                                                             >
                                                                 <a
-                                                                    href="https://www.getrippletrust.com/help/en/"
+                                                                    href="https://www.getrippletrust.com/help/"
                                                                     >Help
                                                                     Centre</a
                                                                 >

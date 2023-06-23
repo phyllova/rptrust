@@ -42,6 +42,65 @@
        
         <link rel="stylesheet" href="css/styles.d7a93047c140c6a2.css" media="print" onload="this.media='all'">
 
+        <style>
+
+          .dropdown {
+            display: none;
+          }
+
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 200px;
+            padding: 15px 20px 20px;
+          }
+
+          .dropdown-content a {
+            color: white;
+            display: block;
+            padding: 5px 0;
+            text-decoration: none;
+          }
+
+          .dropdown.active .dropdown-content {
+            display: block;
+          }
+
+          .dropdown-trigger {
+            color: white;
+            cursor: pointer;
+            display: none;
+            padding: 10px;
+          }
+
+          .close-icon {
+            float: right;
+          }
+
+          /* Media queries for responsive layout */
+          @media screen and (max-width: 600px) {
+            .dropdown {
+              display: block;
+            }
+
+            .dropdown-trigger {
+              display: inline-block;
+            }
+          }
+
+          /* Media queries for responsive layout */
+          @media screen and (max-width: 600px) {
+            .dropdown {
+              display: block;
+            }
+
+            .dropdown-trigger {
+              display: inline-block;
+            }
+          }
+        </style>
+
         <style ng-transition="serverApp">
             getrippletrust-banner[_ngcontent-sc167] {
                 position: sticky
@@ -3440,98 +3499,47 @@
                 <mat-sidenav-container _ngcontent-sc165="" class="mat-drawer-container mat-sidenav-container getrippletrust-sidenav-container">
                     <div class="mat-drawer-backdrop ng-star-inserted"></div>
                     <div class="cdk-visually-hidden cdk-focus-trap-anchor" aria-hidden="true"></div>
-                    <!--Begin Sidenav -->
-                    <mat-sidenav _ngcontent-sc165="" tabindex="-1" mode="over" class="mat-drawer mat-sidenav ng-tns-c159-0 ng-trigger ng-trigger-transform mat-drawer-over mat-sidenav-fixed ng-star-inserted" style="top:0px;bottom:0px;box-shadow:none;visibility:hidden;">
-                        <div cdkscrollable="" class="mat-drawer-inner-container ng-tns-c159-0">
-                            <getrippletrust-navigation-side _ngcontent-sc165="" _nghost-sc164="" class="ng-star-inserted" style="">
-                                <getrippletrust-hamburger _ngcontent-sc164="" class="side-nav-hamburger ng-star-inserted" _nghost-sc162="">
-                                    <button _ngcontent-sc162="" mat-mini-fab="" aria-label="The hamburger button that opens the menu" class="mat-focus-indicator mat-elevation-z mat-mini-fab mat-button-base _mat-animation-noopable">
-                                        <span class="mat-button-wrapper">
-                                            <mat-icon _ngcontent-sc162="" role="img" class="mat-icon notranslate material-icons-round material-icons mat-ligature-font mat-icon-no-color" aria-hidden="true" data-mat-icon-type="font">menu</mat-icon>
-                                        </span>
-                                        <span matripple="" class="mat-ripple mat-button-ripple mat-button-ripple-round"></span>
-                                        <span class="mat-button-focus-overlay"></span>
-                                    </button>
-                                    <getrippletrust-hyperlink _ngcontent-sc162="" url="/" _nghost-sc108="">
-                                        <a _ngcontent-sc108="" class="ng-star-inserted" aria-label="getrippletrust logo" href="/">
-                                            <img _ngcontent-sc162="" width="120" height="38" fill="none" xmlns="http://www.w3.org/2000/svg" class="bright-logo ng-star-inserted" src="image/logo-2.png">
-                                        </a>
-                                    </getrippletrust-hyperlink>
-                                </getrippletrust-hamburger>
 
-                                <div _ngcontent-sc164="" class="navigation-links ng-star-inserted">
+                    <!--BEGIN MAIN NAV -->
+                <div class="cdk-visually-hidden cdk-focus-trap-anchor" aria-hidden="true"></div>
+                <mat-sidenav-content _ngcontent-sc165="" class="mat-drawer-content mat-sidenav-content getrippletrust-sidenav-content">
+                    <getrippletrust-navigation-top _ngcontent-sc165="" _nghost-sc163="" class="ng-star-inserted">
+                        <nav _ngcontent-sc163="" class="nav-top fullwidth">
+                            <getrippletrust-hamburger _ngcontent-sc163="" class="theme-primary ng-star-inserted" _nghost-sc162="">
+                                <button _ngcontent-sc162="" onclick="toggleDropdown()" mat-mini-fab="" aria-label="The hamburger button that opens the menu" class="mat-focus-indicator dropdown mat-elevation-z mat-mini-fab mat-button-base mat-primary _mat-animation-noopable">
+                                    <span class="mat-button-wrapper">
+                                        <mat-icon _ngcontent-sc162="" role="img" class="mat-icon notranslate material-icons-round material-icons mat-ligature-font mat-icon-no-color" aria-hidden="true" data-mat-icon-type="font">menu</mat-icon>
+                                    </span><span matripple="" class="mat-ripple mat-button-ripple mat-button-ripple-round"></span><span class="mat-button-focus-overlay"></span>
+                                            <div class="dropdown-content">
+                                              <span class="close-icon" onclick="toggleDropdown()">
+                                                <i class="fa fa-times"></i>
+                                              </span>
+
+                                              <getrippletrust-hyperlink _ngcontent-sc162="" url="/" _nghost-sc108="">
+                                                  <a _ngcontent-sc108="" class="ng-star-inserted" aria-label="getrippletrust logo" href="/">
+                                                          <img _ngcontent-sc162="" width="120" height="38" fill="none" xmlns="http://www.w3.org/2000/svg" class="bright-logo ng-star-inserted" src="image/logo.png">
+                                                      </a>
+                                              </getrippletrust-hyperlink>
+
+
+
+                                <div _ngcontent-sc164="" class="_mat-animation-noopable navigation-links ng-star-inserted">
                                     <div _ngcontent-sc164="" class="links ng-star-inserted">
                                         <div _ngcontent-sc164="" class="group ng-star-inserted" style="">
                                             <h6 _ngcontent-sc164=""></h6>
-                                            <ul _ngcontent-sc164="">
-                                                <li _ngcontent-sc164="" matripple="" class="mat-ripple active-menu-item ng-star-inserted">
-                                                    <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/about:/en">
-                                                            <span _ngcontent-sc164="" class="icon-wrapper ng-star-inserted" style="display: inline-block;">
-                                                                <mat-icon _ngcontent-sc164="" role="img" class="mat-icon notranslate mat-primary material-icons mat-ligature-font" aria-hidden="true" data-mat-icon-type="font">home </mat-icon>
-                                                            </span>
-                                                            Home 
-                                                        </a>
-                                                    </getrippletrust-hyperlink>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div _ngcontent-sc164="" class="group ng-star-inserted" style="">
-                                            <h6 _ngcontent-sc164="">Resources</h6>
-                                            <ul _ngcontent-sc164="">
-                                                <li _ngcontent-sc164="" matripple="" class="mat-ripple ng-star-inserted">
-                                                    <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="https://discover.getrippletrust.com" rel="opener" target="_blank">
-                                                            
-                                                            <span _ngcontent-sc164="" class="icon-wrapper ng-star-inserted" style="display: inline-block;">
-                                                                <mat-icon _ngcontent-sc164="" role="img" class="mat-icon notranslate mat-primary material-icons mat-ligature-font" aria-hidden="true" data-mat-icon-type="font">local_library </mat-icon>
-                                                            </span>
-                                                            Discover 
-                                                        </a>
-                                                    </getrippletrust-hyperlink>
-                                                </li>
-                                                <li _ngcontent-sc164="" matripple="" class="mat-ripple ng-star-inserted">
-                                                    <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/help/" rel="null" target="">
-                                                            <span _ngcontent-sc164="" class="icon-wrapper ng-star-inserted" style="display: inline-block;">
-                                                                <mat-icon _ngcontent-sc164="" role="img" class="mat-icon notranslate mat-primary material-icons mat-ligature-font" aria-hidden="true" data-mat-icon-type="font">help </mat-icon>
-                                                            </span>
-                                                            Help Centre 
-                                                        </a>
-                                                    </getrippletrust-hyperlink>
-                                                </li>
-                                                <li _ngcontent-sc164="" matripple="" class="mat-ripple ng-star-inserted">
-                                                    <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="https://status.getrippletrust.com/" rel="opener" target="_blank">
-                                                            
-                                                            <span _ngcontent-sc164="" class="icon-wrapper ng-star-inserted" style="display: inline-block;">
-                                                                <mat-icon _ngcontent-sc164="" role="img" class="mat-icon notranslate mat-primary material-icons mat-ligature-font" aria-hidden="true" data-mat-icon-type="font">update </mat-icon>
-                                                            </span>
-                                                            Status 
-                                                        </a>
-                                                    </getrippletrust-hyperlink>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div _ngcontent-sc164="" class="group ng-star-inserted" style="">
-                                            <h6 _ngcontent-sc164="">Reserves</h6>
-                                            <ul _ngcontent-sc164="">
-                                                <li _ngcontent-sc164="" matripple="" class="mat-ripple ng-star-inserted">
-                                                    <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/proof-of-reserves">
-                                                            <picture _ngcontent-sc164="" getrippletrust-picture="" loading="lazy" class="side-nav-img ng-star-inserted" _nghost-sc125="" style="display: inline-block;">
-                                                                <div _ngcontent-sc125="" style="height:24px;width:24px;margin:auto;" class="ng-star-inserted">
-                                                                    <source _ngcontent-sc125="" type="image/avif" srcset="https://d32exi8v9av3ux.cloudfront.net/static/v3/icons/sidenav/highlight/reserves.avif" class="ng-star-inserted">
-                                                                    <source _ngcontent-sc125="" type="image/webp" srcset="https://d32exi8v9av3ux.cloudfront.net/static/v3/icons/sidenav/highlight/reserves.webp" class="ng-star-inserted">
-                                                                    <img _ngcontent-sc125="" loading="lazy" style="height:24px;width:24px;" src="https://d32exi8v9av3ux.cloudfront.net/static/v3/icons/sidenav/highlight/reserves.png" alt="Proof of Reserves">
-                                                                </div>
-                                                            </picture>
-                                                            Proof of Reserves 
-                                                        </a>
-                                                    </getrippletrust-hyperlink>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                              <ul _ngcontent-sc164="">
+                                                  <li _ngcontent-sc164="" matripple="" class="mat-ripple active-menu-item ng-star-inserted">
+                                                      <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
+                                                          <a _ngcontent-sc108="" class="ng-star-inserted" href="/">
+                                                              <span _ngcontent-sc164="" class="icon-wrapper ng-star-inserted" style="display: inline-block;">
+                                                                  <mat-icon _ngcontent-sc164="" role="img" class="mat-icon notranslate mat-primary material-icons mat-ligature-font" aria-hidden="true" data-mat-icon-type="font">home </mat-icon>
+                                                              </span>
+                                                              Home 
+                                                          </a>
+                                                      </getrippletrust-hyperlink>
+                                                  </li>
+                                              </ul>
+                                          </div>
                                         <div _ngcontent-sc164="" class="group ng-star-inserted" style="">
                                             <h6 _ngcontent-sc164="">Account</h6>
                                             <ul _ngcontent-sc164="">
@@ -3555,11 +3563,6 @@
                                                         </a>
                                                     </getrippletrust-hyperlink>
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <div _ngcontent-sc164="" class="group ng-star-inserted" style="">
-                                            <h6 _ngcontent-sc164="">Price charts</h6>
-                                            <ul _ngcontent-sc164="">
                                             </ul>
                                         </div>
                                         <div _ngcontent-sc164="" class="group ng-star-inserted" style="">
@@ -3605,61 +3608,6 @@
                                                         </a>
                                                     </getrippletrust-hyperlink>
                                                 </li>
-                                                <li _ngcontent-sc164="" matripple="" class="mat-ripple ng-star-inserted">
-                                                    <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/business">
-                                                            <span _ngcontent-sc164="" class="icon-wrapper ng-star-inserted" style="display: inline-block;">
-                                                                <mat-icon _ngcontent-sc164="" role="img" class="mat-icon notranslate mat-primary material-icons mat-ligature-font" aria-hidden="true" data-mat-icon-type="font">work </mat-icon>
-                                                            </span>
-                                                            Business 
-                                                        </a>
-                                                    </getrippletrust-hyperlink>
-                                                </li>
-                                                <li _ngcontent-sc164="" matripple="" class="mat-ripple ng-star-inserted">
-                                                    <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/developers">
-                                                            <span _ngcontent-sc164="" class="icon-wrapper ng-star-inserted" style="display: inline-block;">
-                                                                <mat-icon _ngcontent-sc164="" role="img" class="mat-icon notranslate mat-primary material-icons mat-ligature-font" aria-hidden="true" data-mat-icon-type="font">cloud </mat-icon>
-                                                            </span>
-                                                            getrippletrust API 
-                                                        </a>
-                                                    </getrippletrust-hyperlink>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div _ngcontent-sc164="" class="group ng-star-inserted" style="">
-                                            <h6 _ngcontent-sc164="">About</h6>
-                                            <ul _ngcontent-sc164="">
-                                                <li _ngcontent-sc164="" matripple="" class="mat-ripple ng-star-inserted">
-                                                    <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/about">
-                                                            <span _ngcontent-sc164="" class="icon-wrapper ng-star-inserted" style="display: inline-block;">
-                                                                <mat-icon _ngcontent-sc164="" role="img" class="mat-icon notranslate mat-primary material-icons mat-ligature-font" aria-hidden="true" data-mat-icon-type="font">maps_home_work </mat-icon>
-                                                            </span>
-                                                            Company 
-                                                        </a>
-                                                    </getrippletrust-hyperlink>
-                                                </li>
-                                                <li _ngcontent-sc164="" matripple="" class="mat-ripple ng-star-inserted">
-                                                    <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/careers" rel="null" target="">
-                                                            <span _ngcontent-sc164="" class="icon-wrapper ng-star-inserted" style="display: inline-block;">
-                                                                <mat-icon _ngcontent-sc164="" role="img" class="mat-icon notranslate mat-primary material-icons mat-ligature-font" aria-hidden="true" data-mat-icon-type="font">groups </mat-icon>
-                                                            </span>
-                                                            Careers 
-                                                        </a>
-                                                    </getrippletrust-hyperlink>
-                                                </li>
-                                                <li _ngcontent-sc164="" matripple="" class="mat-ripple ng-star-inserted">
-                                                    <getrippletrust-hyperlink _ngcontent-sc164="" _nghost-sc108="" style="display: inline-block;">
-                                                        <a _ngcontent-sc108="" class="ng-star-inserted" href="/press">
-                                                            <span _ngcontent-sc164="" class="icon-wrapper ng-star-inserted" style="display: inline-block;">
-                                                                <mat-icon _ngcontent-sc164="" role="img" class="mat-icon notranslate mat-primary material-icons mat-ligature-font" aria-hidden="true" data-mat-icon-type="font">newspaper </mat-icon>
-                                                            </span>
-                                                            Press 
-                                                        </a>
-                                                    </getrippletrust-hyperlink>
-                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -3670,37 +3618,10 @@
                                         
                                         </a>
                                     </div>
-                                    
-                                    <div _ngcontent-sc164="" class="button-container">
-                                        <getrippletrust-button _ngcontent-sc164="" _nghost-sc135="" class="is-primary ng-star-inserted">
-                                            
-                                            
-                                            <getrippletrust-anchor-with-url-button _ngcontent-sc135="" class="ng-star-inserted">
-                                                
-                                                <a mat-flat-button="" role="button" class="mat-focus-indicator mat-flat-button mat-button-base mat-primary _mat-animation-noopable ng-star-inserted" href="users/form/signup.php" target="" rel="null" aria-disabled="false">
-                                                    <span class="mat-button-wrapper">Sign up </span>
-                                                    <span matripple="" class="mat-ripple mat-button-ripple"></span>
-                                                    <span class="mat-button-focus-overlay"></span>
-                                                </a>
-                                            </getrippletrust-anchor-with-url-button>
-                                        </getrippletrust-button>
-                                    </div>
                                 </div>
                             </getrippletrust-navigation-side>
                         </div>
-                    </mat-sidenav> 
-                    <!--END SIDEBAR NAV -->
 
-                    <!--BEGIN MAIN NAV -->
-                <div class="cdk-visually-hidden cdk-focus-trap-anchor" aria-hidden="true"></div>
-                <mat-sidenav-content _ngcontent-sc165="" class="mat-drawer-content mat-sidenav-content getrippletrust-sidenav-content">
-                    <getrippletrust-navigation-top _ngcontent-sc165="" _nghost-sc163="" class="ng-star-inserted">
-                        <nav _ngcontent-sc163="" class="nav-top fullwidth">
-                            <getrippletrust-hamburger _ngcontent-sc163="" class="theme-primary ng-star-inserted" _nghost-sc162="">
-                                <button _ngcontent-sc162="" mat-mini-fab="" aria-label="The hamburger button that opens the menu" class="mat-focus-indicator mat-elevation-z mat-mini-fab mat-button-base mat-primary _mat-animation-noopable">
-                                    <span class="mat-button-wrapper">
-                                        <mat-icon _ngcontent-sc162="" role="img" class="mat-icon notranslate material-icons-round material-icons mat-ligature-font mat-icon-no-color" aria-hidden="true" data-mat-icon-type="font">menu</mat-icon>
-                                    </span><span matripple="" class="mat-ripple mat-button-ripple mat-button-ripple-round"></span><span class="mat-button-focus-overlay"></span>
                                 </button>
                                 <getrippletrust-hyperlink _ngcontent-sc162="" url="/" _nghost-sc108="">
                                     <a _ngcontent-sc108="" class="ng-star-inserted" aria-label="getrippletrust logo" href="/">
@@ -3708,6 +3629,8 @@
                                         </a>
                                 </getrippletrust-hyperlink>
                             </getrippletrust-hamburger>
+
+
 
                             <menu _ngcontent-sc163="" class="links ng-star-inserted">
                                 <getrippletrust-hyperlink _ngcontent-sc163="" _nghost-sc108="" style="display: inline-block;" class="hide-on-mobile ng-star-inserted">
@@ -3726,7 +3649,9 @@
                                 </getrippletrust-button>
                             </menu>
                         </nav>
-                    </getrippletrust-navigation-top>   
+                    </getrippletrust-navigation-top>
+
+
 
                     <!-- MAIN SECTION BEGINS -->
 
@@ -4102,7 +4027,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16799"
                                                             >
                                                                 <a
-                                                                    href="about"
+                                                                    href="#"
                                                                     >Company</a
                                                                 >
                                                             </li>
@@ -4111,7 +4036,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16800"
                                                             >
                                                                 <a
-                                                                    href="careers"
+                                                                    href="#"
                                                                     >Careers</a
                                                                 >
                                                             </li>
@@ -4120,7 +4045,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16801"
                                                             >
                                                                 <a
-                                                                    href="https://www.getrippletrust.com/press/en"
+                                                                    href="#"
                                                                     >Press</a
                                                                 >
                                                             </li>
@@ -4152,7 +4077,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-147688"
                                                             >
                                                                 <a
-                                                                    href="price/BTC"
+                                                                    href="#"
                                                                     >Bitcoin
                                                                     price</a
                                                                 >
@@ -4162,7 +4087,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-147750"
                                                             >
                                                                 <a
-                                                                    href="proof-of-reserves"
+                                                                    href="#"
                                                                     >Proof of
                                                                     Reserves</a
                                                                 >
@@ -4172,7 +4097,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16786"
                                                             >
                                                                 <a
-                                                                    href="https://www.getrippletrust.com/help/"
+                                                                    href="#"
                                                                     >Help
                                                                     Centre</a
                                                                 >
@@ -4182,7 +4107,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16788"
                                                             >
                                                                 <a
-                                                                    href="https://status.getrippletrust.com/"
+                                                                    href="#"
                                                                     >Status</a
                                                                 >
                                                             </li>
@@ -4232,7 +4157,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16790"
                                                             >
                                                                 <a
-                                                                    href="countries"
+                                                                    href="#"
                                                                     >Fees</a
                                                                 >
                                                             </li>
@@ -4241,7 +4166,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16791"
                                                             >
                                                                 <a
-                                                                    href="exchange"
+                                                                    href="#"
                                                                     >Exchange</a
                                                                 >
                                                             </li>
@@ -4250,7 +4175,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16792"
                                                             >
                                                                 <a
-                                                                    href="business"
+                                                                    href="#"
                                                                     >Business</a
                                                                 >
                                                             </li>
@@ -4259,7 +4184,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16793"
                                                             >
                                                                 <a
-                                                                    href="developers"
+                                                                    href="#"
                                                                     >getrippletrust API</a
                                                                 >
                                                             </li>
@@ -4291,7 +4216,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16794"
                                                             >
                                                                 <a
-                                                                    href="legal/terms"
+                                                                    href="#"
                                                                     >Terms of
                                                                     use</a
                                                                 >
@@ -4301,7 +4226,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16797"
                                                             >
                                                                 <a
-                                                                    href="legal/privacy"
+                                                                    href="#"
                                                                     >Privacy
                                                                     policy</a
                                                                 >
@@ -4311,7 +4236,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-148231"
                                                             >
                                                                 <a
-                                                                    href="legal/hiring"
+                                                                    href="#"
                                                                     >Hiring
                                                                     privacy
                                                                     policy</a
@@ -4322,7 +4247,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-148232"
                                                             >
                                                                 <a
-                                                                    href="legal/cookie-policy"
+                                                                    href="#"
                                                                     >Cookie
                                                                     Policy</a
                                                                 >
@@ -4342,7 +4267,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-148234"
                                                             >
                                                                 <a
-                                                                    href="legal/licenses"
+                                                                    href="#"
                                                                     >Licenses
                                                                     and
                                                                     registrations</a
@@ -4376,7 +4301,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-148211"
                                                             >
                                                                 <a
-                                                                    href="security"
+                                                                    href="#"
                                                                     >Security</a
                                                                 >
                                                             </li>
@@ -4385,7 +4310,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-148212"
                                                             >
                                                                 <a
-                                                                    href="legal/compliance"
+                                                                    href="#"
                                                                     >Compliance
                                                                     information</a
                                                                 >
@@ -4395,7 +4320,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-148213"
                                                             >
                                                                 <a
-                                                                    href="legal/safe"
+                                                                    href="#"
                                                                     >Customer
                                                                     protection</a
                                                                 >
@@ -4405,7 +4330,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-148214"
                                                             >
                                                                 <a
-                                                                    href="legal/complaints"
+                                                                    href="#"
                                                                     >Complaints
                                                                     policy</a
                                                                 >
@@ -4415,7 +4340,7 @@
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-148215"
                                                             >
                                                                 <a
-                                                                    href="legal/risks"
+                                                                    href="l#"
                                                                     >Risk
                                                                     warning</a
                                                                 >
@@ -4426,80 +4351,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div
-                                        class="footer-bottom__language-container"
-                                    >
-                                        <div class="wpml">
-                                            <div class="wpml__heading">
-                                                Language
-                                            </div>
-                                            <ul
-                                                class="dropdown wpml__list"
-                                                data-dropdown-menu
-                                                data-disable-hover="true"
-                                                data-click-open="true"
-                                            >
-                                                <li>
-                                                    <a
-                                                        href="#"
-                                                        class="wpml__language wpml__language--current wpml__language--light"
-                                                        ><span
-                                                            class="wpml__flag flag-icon flag-icon-squared flag-icon-us"
-                                                        ></span
-                                                        ><span
-                                                            class="wpml__label"
-                                                            >English</span
-                                                        ></a
-                                                    >
-                                                    <ul
-                                                        class="wpml__list wpml__list--submenu"
-                                                    >
-                                                        <li>
-                                                            <a
-                                                                class="wpml__language wpml__language--ashfield"
-                                                                href="https://discover.getrippletrust.com/us/"
-                                                                ><span
-                                                                    class="wpml__flag flag-icon flag-icon-squared flag-icon-us"
-                                                                ></span
-                                                                >American
-                                                                English</a
-                                                            >
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                class="wpml__language wpml__language--ashfield"
-                                                                href="https://discover.getrippletrust.com/my/"
-                                                                ><span
-                                                                    class="wpml__flag flag-icon flag-icon-squared flag-icon-my"
-                                                                ></span
-                                                                >Melayu</a
-                                                            >
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                class="wpml__language wpml__language--ashfield"
-                                                                href="https://discover.getrippletrust.com/id/"
-                                                                ><span
-                                                                    class="wpml__flag flag-icon flag-icon-squared flag-icon-id"
-                                                                ></span
-                                                                >Bahasa
-                                                                Indonesia</a
-                                                            >
-                                                        </li>
-                                                        <li>
-                                                            <a
-                                                                class="wpml__language wpml__language--ashfield"
-                                                                href="https://discover.getrippletrust.com/fr/"
-                                                                ><span
-                                                                    class="wpml__flag flag-icon flag-icon-squared flag-icon-fr"
-                                                                ></span
-                                                                >Français</a
-                                                            >
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </div>
  
                                         <p class="footer-bottom__copyright">
                                             &copy; Copyright 2023
@@ -4514,6 +4365,14 @@
         <script src="js/vendor.7bfbe7cf2333238d.js" type="module"></script>
         <script src="js/main.6b1e2af4c4b4424a.js" type="module"></script>
         <div class="cdk-live-announcer-element cdk-visually-hidden" aria-atomic="true" aria-live="polite"></div>
+        <script>
+            function toggleDropdown() {
+              var dropdown = document.querySelector('.dropdown');
+              dropdown.classList.toggle('active');
+            }
+          </script>
+
+
 
  </body>
 
